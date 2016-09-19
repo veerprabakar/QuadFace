@@ -77,6 +77,5 @@ D:\Prabakar\MyWeb\QuadFace\QuadFace\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Prabakar\MyWeb\QuadFace\QuadFace\bin\Microsoft.Owin.Security.Google.xml
 D:\Prabakar\MyWeb\QuadFace\QuadFace\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Prabakar\MyWeb\QuadFace\QuadFace\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\Prabakar\MyWeb\QuadFace\QuadFace\obj\Debug\QuadFace.csprojResolveAssemblyReference.cache
 D:\Prabakar\MyWeb\QuadFace\QuadFace\obj\Debug\QuadFace.dll
 D:\Prabakar\MyWeb\QuadFace\QuadFace\obj\Debug\QuadFace.pdb
