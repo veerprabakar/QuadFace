@@ -4,7 +4,10 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h3 class="text-primary">Details</h3>
+<p>
+    @Html.ActionLink("Back to List", "Index") |
+</p>
 
 <div>
     <h4>SampleData</h4>
@@ -13,46 +16,35 @@
         <dt>
             @Html.DisplayNameFor(model => model.Name)
         </dt>
-
         <dd>
             @Html.DisplayFor(model => model.Name)
         </dd>
-
         <dt>
             @Html.DisplayNameFor(model => model.Age)
         </dt>
-
         <dd>
             @Html.DisplayFor(model => model.Age)
         </dd>
-
         <dt>
             @Html.DisplayNameFor(model => model.DataOfBirth)
         </dt>
-
         <dd>
             @Html.DisplayFor(model => model.DataOfBirth)
         </dd>
-
         <dt>
             @Html.DisplayNameFor(model => model.Email)
         </dt>
-
         <dd>
             @Html.DisplayFor(model => model.Email)
         </dd>
-
         <dt>
             @Html.DisplayNameFor(model => model.Address)
         </dt>
-
         <dd>
             @Html.DisplayFor(model => model.Address)
         </dd>
-
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id })
 </p>

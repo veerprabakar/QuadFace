@@ -4,13 +4,10 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h3 class="text-primary text-info"> Sample Data </h3>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
+<table class="table table-responsive">
+    <tr class="alert-success">
         <th>
             @Html.DisplayNameFor(model => model.Name)
         </th>
@@ -28,7 +25,6 @@
         </th>
         <th></th>
     </tr>
-
 @foreach (var item in Model) {
     <tr>
         <td>
@@ -46,12 +42,27 @@
         <td>
             @Html.DisplayFor(modelItem => item.Address)
         </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        <td class="col-sm-pull-8">
+            @Html.ActionLink("Edit", "Edit",  new { id=item.Id }, new { @class = "btn btn-default" }) 
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id }, new { @class = "btn btn-danger" })
         </td>
     </tr>
 }
-
 </table>
+
+<div class="panel-footer">
+    @Html.ActionLink("Create New", "Create")
+</div>
+
+<script>
+    //var tempval = 1 + 2 + '3';
+    //alert(tempval);
+
+    //(function () { var foo = 'bar'; alert(foo); })();
+    (function () {
+        foo = bar;
+        alert(foo);
+    })();
+
+  
+</script>
